@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(chromium-cli *)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl -sf http://localhost:5173/)",
+      "Bash(open *)",
+      "Bash(npx --version)"
+    ]
+  }
+}
