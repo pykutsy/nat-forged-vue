@@ -7,7 +7,18 @@
       "Bash(curl -s http://localhost:5173/)",
       "Bash(curl -sf http://localhost:5173/)",
       "Bash(open *)",
-      "Bash(npx --version)"
+      "Bash(npx --version)",
+      "Bash(lsof -ti:5188)",
+      "Bash(sips -g pixelWidth -g pixelHeight src/assets/logo.png)",
+      "Bash(python3 -c \"from PIL import Image; im=Image.open\\('src/assets/logo.png'\\); print\\(im.size\\)\")",
+      "Bash(python3 -c \"from PIL import Image; im = Image.open\\('src/assets/logo.png'\\); print\\(im.size, im.mode\\)\")",
+      "Bash(python3 -m pip install --quiet --user pillow)",
+      "Bash(python3)",
+      "Bash(git checkout *)",
+      "Bash(git check-ignore *)",
+      "Bash(ls -la ~/.ssh/ 2>/dev/null; echo \"---remote---\"; git remote -v)",
+      "Bash(gh auth *)",
+      "Bash(ssh-keygen -t ed25519 -C \"art@kutsy.com\" -f ~/.ssh/id_ed25519 -N \"\")"
     ]
   }
 }

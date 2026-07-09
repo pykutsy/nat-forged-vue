@@ -16,12 +16,12 @@ const items = [
   <SectionShell bg="bg-parchment">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
-        <p class="font-sans text-[10px] font-medium uppercase tracking-[0.3em] text-bronze mb-3">Is this you?</p>
+        <p class="font-sans text-[10px] font-medium uppercase tracking-[0.3em] text-bronze mb-3">Designed for women</p>
         <h2 class="font-display text-4xl md:text-5xl font-medium text-charcoal mb-6">Who This Is For</h2>
         <p class="font-sans text-sm text-charcoal/70 leading-relaxed mb-8">
-          Coaching isn't for everyone — and that's okay. But if you're a woman who's tired of starting over,
-          tired of all-or-nothing thinking, and ready for an approach that's rooted in consistency and compassion,
-          you're in the right place.
+          Built for women — especially busy moms — juggling full schedules and limited time, ready to feel like
+          themselves again. This is about nourishing your body, building real strength, and making space for you,
+          after a life spent caring for everyone else.
         </p>
         <BrandButton to="/apply">Apply for Coaching</BrandButton>
       </div>

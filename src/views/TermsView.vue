@@ -20,7 +20,7 @@ import SectionShell from '@/components/ui/SectionShell.vue'
       <p>By accessing this website, you agree to be bound by these terms of use and all applicable laws and regulations.</p>
 
       <h2 class="font-display text-2xl font-semibold text-charcoal">Use of Content</h2>
-      <p>All content on this website — including text, images, and branding — is the property of Naturally Forged. You may not reproduce or distribute any content without written permission.</p>
+      <p>All content on this website — including text, images, and branding — is the property of Naturally Forged, LLC. You may not reproduce or distribute any content without written permission.</p>
 
       <h2 class="font-display text-2xl font-semibold text-charcoal">Coaching Services</h2>
       <p>Coaching services are personal and non-transferable. Results described or shown are not guaranteed. Individual results vary based on effort, adherence, and individual factors.</p>

@@ -4,6 +4,7 @@ import ImageSlot         from '@/components/ui/ImageSlot.vue'
 import BrandButton       from '@/components/ui/BrandButton.vue'
 import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 import FinalCtaSection   from '@/components/sections/FinalCtaSection.vue'
+import headshotImg       from '@/assets/Headshot.jpg'
 
 const values = [
   { title: 'Education over rules', body: 'You should understand why you\'re eating and training the way you are. Knowledge is the real goal — not blind compliance to a plan.' },
@@ -29,15 +30,20 @@ const values = [
   <SectionShell bg="bg-cream">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-14 items-start">
       <div class="aspect-[3/4]">
-        <ImageSlot label="Alyssa — professional headshot or candid lifestyle photo" />
+        <ImageSlot
+          label="Alyssa — professional headshot or candid lifestyle photo"
+          :src="headshotImg"
+          alt="Alyssa headshot"
+        />
       </div>
       <div>
         <h2 class="font-display text-3xl md:text-4xl font-medium text-charcoal mb-5">My Story</h2>
         <div class="space-y-4 font-sans text-sm text-charcoal/75 leading-relaxed">
           <p>
-            I spent years as a registered nurse watching patients struggle with the downstream effects of poor nutrition
-            and sedentary lifestyles — while also personally cycling through every trending diet, never quite finding
-            an approach that felt sustainable or joyful.
+            I spent years as a registered nurse, seeing firsthand how closely nutrition and lifestyle are tied to our
+            long-term health — and how often that cycle of poor nutrition and growing medical needs goes unaddressed.
+            At the same time, I was personally cycling through every trending diet, never quite finding an approach
+            that felt sustainable or joyful.
           </p>
           <p>
             After becoming a mom, the stakes changed. I needed something that fit into real life — not the highlight

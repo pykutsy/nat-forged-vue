@@ -1,6 +1,5 @@
 <script setup>
 import SectionShell          from '@/components/ui/SectionShell.vue'
-import ImageSlot             from '@/components/ui/ImageSlot.vue'
 import BrandButton           from '@/components/ui/BrandButton.vue'
 import AccountabilitySection from '@/components/sections/AccountabilitySection.vue'
 import FinalCtaSection       from '@/components/sections/FinalCtaSection.vue'
@@ -9,6 +8,8 @@ const included = [
   'Personalized nutrition framework built around your food preferences and lifestyle',
   'No meal plans that ignore real life — flexible, sustainable food structure',
   'Protein and fiber focus for energy, satiety, and body composition support',
+  'Functional Nutrition approach — looking at root causes like hormones, gut health, stress, and sleep, not just symptoms',
+  'CGM-guided insights — using continuous glucose monitors to tailor meals and lifestyle changes to how your body actually responds',
   'Weekly check-ins with adjustments as needed',
   'Educational approach so you understand the why, not just the what',
   'Support for eating out, travel, and real-life situations',
@@ -54,10 +55,6 @@ const forWho = [
       </div>
 
       <div>
-        <div class="aspect-[4/5] mb-8">
-          <ImageSlot label="Nutrition — balanced meal or food prep photo" />
-        </div>
-
         <div class="bg-parchment p-6">
           <h3 class="font-display text-xl font-semibold text-charcoal mb-3">Who This Is For</h3>
           <ul class="space-y-2">

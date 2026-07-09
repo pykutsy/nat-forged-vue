@@ -12,7 +12,7 @@ const pillars = [
   },
   {
     title: 'Progress Tracking',
-    body: 'Comprehensive tracking beyond the scale — strength numbers, energy, habits, and body measurements all tell the story.',
+    body: 'Comprehensive tracking beyond the scale — strength numbers, energy, habits, and body measurements all tell the story. We use the Levels app to track food, glucose, sleep, and other health data in real time, so we can see what\'s actually working.',
   },
   {
     title: 'Ongoing Support',

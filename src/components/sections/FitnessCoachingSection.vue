@@ -2,9 +2,10 @@
 import SectionShell from '@/components/ui/SectionShell.vue'
 import ImageSlot from '@/components/ui/ImageSlot.vue'
 import BrandButton from '@/components/ui/BrandButton.vue'
+import weightsImg from '@/assets/weights.jpeg'
 
 const features = [
-  { label: '3, 4, or 5-day programs', desc: 'Designed around your schedule and recovery needs.' },
+  { label: 'Built to fit your schedule', desc: 'Structured around your time, energy, and recovery needs.' },
   { label: 'Gym or home equipment', desc: 'Full programs available for both — no fancy setup required.' },
   { label: 'Progressive strength training', desc: 'Built to make you measurably stronger over time.' },
   { label: 'Compound movement focus', desc: 'Train efficiently with moves that give you the most return.' },
@@ -41,7 +42,11 @@ const features = [
       </div>
 
       <div class="aspect-[4/5]">
-        <ImageSlot label="Fitness coaching — strength training or gym photo" />
+        <ImageSlot
+          label="Fitness coaching — strength training or gym photo"
+          :src="weightsImg"
+          alt="Weights"
+        />
       </div>
     </div>
   </SectionShell>

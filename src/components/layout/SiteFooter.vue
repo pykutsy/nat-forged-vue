@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import logoMark from '@/assets/logo-mark.png'
 
 const year = new Date().getFullYear()
 
@@ -30,6 +31,7 @@ const legalLinks = [
 
         <!-- Brand -->
         <div class="lg:col-span-1">
+          <img :src="logoMark" alt="Naturally Forged" class="h-14 w-14 object-contain mb-3" />
           <p class="font-display text-xl text-ivory font-semibold mb-1">Naturally Forged</p>
           <p class="font-sans text-[10px] uppercase tracking-[0.2em] text-bronze mb-4">Nutrition &amp; Strength Coaching</p>
           <p class="font-sans text-sm text-ivory/55 leading-relaxed">
@@ -65,16 +67,16 @@ const legalLinks = [
           </a>
           <div class="flex gap-4 text-sm font-sans">
             <!-- Replace href="#" with real social URLs -->
-            <a href="#" aria-label="Instagram" class="hover:text-bronze transition-colors">Instagram</a>
+            <a href="https://www.instagram.com/realwellmom/" target="_blank" rel="noopener" aria-label="Instagram" class="hover:text-bronze transition-colors">Instagram</a>
             <a href="#" aria-label="Facebook" class="hover:text-bronze transition-colors">Facebook</a>
-            <a href="#" aria-label="TikTok" class="hover:text-bronze transition-colors">TikTok</a>
+            <a href="https://www.tiktok.com/@realwellmom" target="_blank" rel="noopener" aria-label="TikTok" class="hover:text-bronze transition-colors">TikTok</a>
           </div>
         </div>
       </div>
 
       <!-- Bottom bar -->
       <div class="border-t border-ivory/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <p class="text-xs font-sans text-ivory/35">&copy; {{ year }} Naturally Forged. All rights reserved.</p>
+        <p class="text-xs font-sans text-ivory/35">&copy; {{ year }} Naturally Forged, LLC. All rights reserved.</p>
         <nav class="flex flex-wrap justify-center gap-x-5 gap-y-1">
           <RouterLink
             v-for="link in legalLinks"

@@ -6,7 +6,6 @@ import NutritionCoachingSection from '@/components/sections/NutritionCoachingSec
 import FitnessCoachingSection  from '@/components/sections/FitnessCoachingSection.vue'
 import AccountabilitySection   from '@/components/sections/AccountabilitySection.vue'
 import AboutSection            from '@/components/sections/AboutSection.vue'
-import TestimonialsSection     from '@/components/sections/TestimonialsSection.vue'
 import EmailFreebieSection     from '@/components/sections/EmailFreebieSection.vue'
 import FinalCtaSection         from '@/components/sections/FinalCtaSection.vue'
 </script>
@@ -19,7 +18,6 @@ import FinalCtaSection         from '@/components/sections/FinalCtaSection.vue'
   <FitnessCoachingSection />
   <AccountabilitySection />
   <AboutSection />
-  <TestimonialsSection />
   <EmailFreebieSection />
   <FinalCtaSection />
 </template>

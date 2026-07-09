@@ -1,14 +1,22 @@
 <script setup>
 import SectionShell          from '@/components/ui/SectionShell.vue'
-import ImageSlot             from '@/components/ui/ImageSlot.vue'
 import BrandButton           from '@/components/ui/BrandButton.vue'
 import AccountabilitySection from '@/components/sections/AccountabilitySection.vue'
 import FinalCtaSection       from '@/components/sections/FinalCtaSection.vue'
 
-const programOptions = [
-  { days: '3-Day', best: 'Best for beginners or those with limited time. Full-body focus, maximum efficiency.' },
-  { days: '4-Day', best: 'Upper/lower split. Strong balance of volume and recovery for consistent progress.' },
-  { days: '5-Day', best: 'Push/pull/legs structure. Ideal for intermediates ready to increase volume and specialization.' },
+const trainingAreas = [
+  {
+    title: 'Gym Equipment',
+    body: 'Guidance on using machines, free weights, and everything in between — so you walk in with confidence and never feel lost on the floor.',
+  },
+  {
+    title: 'At-Home Workouts',
+    body: 'Full programs built around minimal or bodyweight-only equipment, so a home gym (or no gym) is never an excuse.',
+  },
+  {
+    title: 'Lifting Programming',
+    body: 'Structured, progressive programming that builds real strength over time — no random workouts, no guesswork.',
+  },
 ]
 
 const included = [
@@ -16,6 +24,7 @@ const included = [
   'Gym or home equipment options — no excuses, no limitations',
   'Progressive overload built in from week one',
   'Form cues and video references for key lifts',
+  'Programming built within your current ability to promote strength while avoiding injury',
   'Tracking templates so you always know your numbers',
   'Periodic deload weeks for sustainable long-term progress',
   'Weekly check-ins and program adjustments',
@@ -34,37 +43,34 @@ const included = [
     </div>
   </section>
 
-  <!-- Program options -->
-  <SectionShell bg="bg-cream">
+  <!-- Training areas -->
+  <SectionShell bg="bg-parchment">
     <div class="text-center mb-12">
-      <h2 class="font-display text-3xl md:text-4xl font-medium text-charcoal">Choose Your Program Structure</h2>
+      <h2 class="font-display text-3xl md:text-4xl font-medium text-charcoal">How We Build Your Program</h2>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
-      <div v-for="p in programOptions" :key="p.days" class="bg-ivory border border-parchment p-7">
-        <p class="font-display text-3xl font-semibold text-bronze mb-2">{{ p.days }}</p>
-        <p class="font-sans text-xs font-medium uppercase tracking-widest text-charcoal/50 mb-3">Program</p>
-        <p class="font-sans text-sm text-charcoal/70 leading-relaxed">{{ p.best }}</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div v-for="area in trainingAreas" :key="area.title" class="bg-ivory border border-parchment p-7">
+        <h3 class="font-display text-xl font-semibold text-charcoal mb-3">{{ area.title }}</h3>
+        <p class="font-sans text-sm text-charcoal/70 leading-relaxed">{{ area.body }}</p>
       </div>
     </div>
+  </SectionShell>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-14 items-start">
-      <div>
-        <h2 class="font-display text-3xl md:text-4xl font-medium text-charcoal mb-5">What's Included</h2>
-        <ul class="space-y-3 mb-8">
-          <li v-for="item in included" :key="item" class="flex gap-3 items-start">
-            <span class="flex-shrink-0 w-5 h-5 mt-0.5 rounded-full bg-bronze/15 flex items-center justify-center">
-              <svg class="w-3 h-3 text-bronze" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-              </svg>
-            </span>
-            <p class="font-sans text-sm text-charcoal/80 leading-snug">{{ item }}</p>
-          </li>
-        </ul>
-        <BrandButton to="/apply">Apply for Fitness Coaching</BrandButton>
-      </div>
-      <div class="aspect-[4/5]">
-        <ImageSlot label="Fitness coaching — gym, lifting, or workout photo" />
-      </div>
+  <!-- Program details -->
+  <SectionShell bg="bg-cream">
+    <div class="max-w-2xl">
+      <h2 class="font-display text-3xl md:text-4xl font-medium text-charcoal mb-5">What's Included</h2>
+      <ul class="space-y-3 mb-8">
+        <li v-for="item in included" :key="item" class="flex gap-3 items-start">
+          <span class="flex-shrink-0 w-5 h-5 mt-0.5 rounded-full bg-bronze/15 flex items-center justify-center">
+            <svg class="w-3 h-3 text-bronze" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </span>
+          <p class="font-sans text-sm text-charcoal/80 leading-snug">{{ item }}</p>
+        </li>
+      </ul>
+      <BrandButton to="/apply">Apply for Fitness Coaching</BrandButton>
     </div>
   </SectionShell>
 
