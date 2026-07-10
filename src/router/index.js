@@ -11,6 +11,7 @@ const routes = [
   { path: '/privacy', component: () => import('@/views/PrivacyView.vue') },
   { path: '/terms', component: () => import('@/views/TermsView.vue') },
   { path: '/disclaimer', component: () => import('@/views/DisclaimerView.vue') },
+  { path: '/:pathMatch(.*)*', name: 'not-found', component: () => import('@/views/NotFoundView.vue') },
 ]
 
 const router = createRouter({
