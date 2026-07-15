@@ -6,7 +6,7 @@ import meImg from '@/assets/Me.jpg'
 
 const credentials = [
   'Registered Nurse (RN, BSN)',
-  'Certified Functional Nutrition Counselor',
+  'Functional Nutrition Counselor',
   'Self-Taught Strength & Lifting Journey',
   'Mom — the credential that matters most',
 ]

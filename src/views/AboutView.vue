@@ -21,7 +21,7 @@ const values = [
       <p class="font-sans text-[10px] font-medium uppercase tracking-[0.3em] text-bronze mb-3">Your coach</p>
       <h1 class="font-display text-5xl md:text-6xl font-medium text-ivory mb-4">Meet Alyssa</h1>
       <p class="font-sans text-sm text-ivory/70 leading-relaxed">
-        RN, BSN · Functional Nutrition · Certified Coach · Mom
+        RN, BSN · Functional Nutrition · Coach · Mom
       </p>
     </div>
   </section>
