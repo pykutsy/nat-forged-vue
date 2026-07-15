@@ -19,10 +19,9 @@ const siteLinks = [
   { label: 'Client Login',  href: 'https://my.practicebetter.io/#/login' },
 ]
 
+// Privacy Policy and Terms of Use are now sections on this same page.
 const legalLinks = [
-  { label: 'Privacy Policy', to: '/privacy' },
-  { label: 'Terms of Use',   to: '/terms' },
-  { label: 'Disclaimer',     to: '/disclaimer' },
+  { label: 'Disclaimer', to: '/disclaimer' },
 ]
 </script>
 
