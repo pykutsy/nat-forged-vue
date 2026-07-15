@@ -17,19 +17,17 @@ import SectionShell from '@/components/ui/SectionShell.vue'
       </p>
 
       <h2 class="font-display text-2xl font-semibold text-charcoal">Information We Collect</h2>
-      <p>We collect information you provide directly when you apply for coaching or sign up for our email list, including your name and email address. We may also collect usage data when you visit this website.</p>
+      <p>We collect information you provide directly when you apply for coaching, including your name, email address, and whatever you tell us about your goals. We may also collect usage data when you visit this website.</p>
 
       <h2 class="font-display text-2xl font-semibold text-charcoal">How We Use Your Information</h2>
-      <p>Information is used to deliver coaching services, send newsletters and free resources you've requested, and improve the website experience. We do not sell your personal information.</p>
-
-      <h2 class="font-display text-2xl font-semibold text-charcoal">Email Communications</h2>
-      <p>If you join our email list, you can unsubscribe at any time using the link at the bottom of any email. We will not send unsolicited messages.</p>
+      <p>Information is used to deliver coaching services, respond to your application, and improve the website experience. We do not sell your personal information.</p>
 
       <h2 class="font-display text-2xl font-semibold text-charcoal">Third-Party Services</h2>
       <p>
         Scheduling, client information, and coaching communications are handled through a third-party practice
         management platform, which stores that information on our behalf and under its own privacy terms.
-        <span class="italic text-charcoal/50">[Name the platform and confirm its data handling terms before publishing.]</span>
+        Coaching applications submitted through this website are delivered by a third-party form service.
+        <span class="italic text-charcoal/50">[Name both providers and confirm their data handling terms before publishing.]</span>
       </p>
 
       <h2 class="font-display text-2xl font-semibold text-charcoal">Health and Activity Data</h2>
