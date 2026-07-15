@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import logoMark from '@/assets/logo-mark.png'
+import logoMark from '@/assets/logo-mark.webp'
 
 const year = new Date().getFullYear()
 
@@ -11,9 +11,12 @@ const coachingLinks = [
   { label: 'Apply for Coaching',  to: '/apply' },
 ]
 
+// `href` entries are external and open in a new tab; `to` entries are routes.
 const siteLinks = [
   { label: 'Home',          to: '/' },
   { label: 'About Alyssa',  to: '/about' },
+  { label: 'Resources',     to: '/resources' },
+  { label: 'Client Login',  href: 'https://my.practicebetter.io/#/login' },
 ]
 
 const legalLinks = [
@@ -53,8 +56,9 @@ const legalLinks = [
         <div>
           <h3 class="font-sans text-[10px] font-semibold uppercase tracking-widest text-ivory/35 mb-4">Site</h3>
           <ul class="space-y-2.5 text-sm font-sans">
-            <li v-for="link in siteLinks" :key="link.to">
-              <RouterLink :to="link.to" class="hover:text-bronze transition-colors">{{ link.label }}</RouterLink>
+            <li v-for="link in siteLinks" :key="link.label">
+              <RouterLink v-if="link.to" :to="link.to" class="hover:text-bronze transition-colors">{{ link.label }}</RouterLink>
+              <a v-else :href="link.href" target="_blank" rel="noopener" class="hover:text-bronze transition-colors">{{ link.label }}</a>
             </li>
           </ul>
         </div>
@@ -66,9 +70,7 @@ const legalLinks = [
             hello@naturallyforged.com
           </a>
           <div class="flex gap-4 text-sm font-sans">
-            <!-- Replace href="#" with real social URLs -->
             <a href="https://www.instagram.com/realwellmom/" target="_blank" rel="noopener" aria-label="Instagram" class="hover:text-bronze transition-colors">Instagram</a>
-            <a href="#" aria-label="Facebook" class="hover:text-bronze transition-colors">Facebook</a>
             <a href="https://www.tiktok.com/@realwellmom" target="_blank" rel="noopener" aria-label="TikTok" class="hover:text-bronze transition-colors">TikTok</a>
           </div>
         </div>

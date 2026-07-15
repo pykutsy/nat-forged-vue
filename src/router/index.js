@@ -7,6 +7,7 @@ const routes = [
   { path: '/coaching/nutrition', component: () => import('@/views/NutritionCoachingView.vue') },
   { path: '/coaching/fitness', component: () => import('@/views/FitnessCoachingView.vue') },
   { path: '/coaching/combined', component: () => import('@/views/CombinedCoachingView.vue') },
+  { path: '/resources', component: () => import('@/views/ResourcesView.vue') },
   { path: '/apply', component: () => import('@/views/ApplyView.vue') },
   { path: '/privacy', component: () => import('@/views/PrivacyView.vue') },
   { path: '/terms', component: () => import('@/views/TermsView.vue') },

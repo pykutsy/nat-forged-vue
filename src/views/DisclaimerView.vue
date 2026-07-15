@@ -32,6 +32,17 @@ import SectionShell from '@/components/ui/SectionShell.vue'
         clinical nursing or medical capacity. No client–patient relationship is formed through coaching engagement.
       </p>
 
+      <h2 class="font-display text-2xl font-semibold text-charcoal">Affiliate Disclosure</h2>
+      <p>
+        Some links on this website — including those on the
+        <RouterLink to="/resources" class="text-bronze underline hover:text-forest">Resources</RouterLink>
+        page — are affiliate links. If you make a purchase through one of these links, Naturally Forged, LLC may
+        receive a commission at no additional cost to you. We only feature products and companies we use and
+        genuinely recommend, and compensation never determines what is included or how it is described. This
+        disclosure is made in accordance with the U.S. Federal Trade Commission's guidelines on endorsements
+        and testimonials.
+      </p>
+
       <h2 class="font-display text-2xl font-semibold text-charcoal">Contact</h2>
       <p>Questions? Email <a href="mailto:hello@naturallyforged.com" class="text-bronze underline hover:text-forest">hello@naturallyforged.com</a>.</p>
     </div>

@@ -4,7 +4,7 @@ import ImageSlot         from '@/components/ui/ImageSlot.vue'
 import BrandButton       from '@/components/ui/BrandButton.vue'
 import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 import FinalCtaSection   from '@/components/sections/FinalCtaSection.vue'
-import headshotImg       from '@/assets/Headshot.jpg'
+import headshotImg       from '@/assets/Headshot.webp'
 
 const values = [
   { title: 'Education over rules', body: 'You should understand why you\'re eating and training the way you are. Knowledge is the real goal — not blind compliance to a plan.' },
@@ -21,7 +21,7 @@ const values = [
       <p class="font-sans text-[10px] font-medium uppercase tracking-[0.3em] text-bronze mb-3">Your coach</p>
       <h1 class="font-display text-5xl md:text-6xl font-medium text-ivory mb-4">Meet Alyssa</h1>
       <p class="font-sans text-sm text-ivory/70 leading-relaxed">
-        RN, BSN · Functional Nutrition · Certified Coach · Mom
+        RN, BSN · Functional Nutrition · Coach · Mom
       </p>
     </div>
   </section>

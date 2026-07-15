@@ -2,11 +2,11 @@
 import SectionShell from '@/components/ui/SectionShell.vue'
 import ImageSlot from '@/components/ui/ImageSlot.vue'
 import BrandButton from '@/components/ui/BrandButton.vue'
-import meImg from '@/assets/Me.jpg'
+import meImg from '@/assets/Me.webp'
 
 const credentials = [
   'Registered Nurse (RN, BSN)',
-  'Certified Functional Nutrition Counselor',
+  'Functional Nutrition Counselor',
   'Self-Taught Strength & Lifting Journey',
   'Mom — the credential that matters most',
 ]

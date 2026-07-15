@@ -1,7 +1,7 @@
 <script setup>
 import BrandButton from '@/components/ui/BrandButton.vue'
 import ImageSlot from '@/components/ui/ImageSlot.vue'
-import mainImg from '@/assets/Main.jpg'
+import mainImg from '@/assets/Main.webp'
 </script>
 
 <template>

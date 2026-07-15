@@ -1,5 +1,5 @@
 <script setup>
-import logoMark from '@/assets/logo-mark.png'
+import logoMark from '@/assets/logo-mark.webp'
 </script>
 
 <template>

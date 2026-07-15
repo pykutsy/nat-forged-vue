@@ -10,6 +10,7 @@ const navLinks = [
   { label: 'Fitness',    to: '/coaching/fitness' },
   { label: 'Combined',   to: '/coaching/combined' },
   { label: 'About',      to: '/about' },
+  { label: 'Resources',  to: '/resources' },
 ]
 </script>
 
