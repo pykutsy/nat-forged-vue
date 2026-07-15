@@ -9,9 +9,12 @@ const routes = [
   { path: '/coaching/combined', component: () => import('@/views/CombinedCoachingView.vue') },
   { path: '/resources', component: () => import('@/views/ResourcesView.vue') },
   { path: '/apply', component: () => import('@/views/ApplyView.vue') },
-  { path: '/privacy', component: () => import('@/views/PrivacyView.vue') },
-  { path: '/terms', component: () => import('@/views/TermsView.vue') },
   { path: '/disclaimer', component: () => import('@/views/DisclaimerView.vue') },
+  // Privacy and Terms are now sections on the Disclaimer page. Kept as real
+  // routes (rather than deleted) so old bookmarks and any indexed links land
+  // on the merged content instead of a 404.
+  { path: '/privacy', redirect: '/disclaimer#privacy' },
+  { path: '/terms', redirect: '/disclaimer#terms' },
   { path: '/:pathMatch(.*)*', name: 'not-found', component: () => import('@/views/NotFoundView.vue') },
 ]
 
