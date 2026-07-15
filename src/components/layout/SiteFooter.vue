@@ -14,6 +14,7 @@ const coachingLinks = [
 const siteLinks = [
   { label: 'Home',          to: '/' },
   { label: 'About Alyssa',  to: '/about' },
+  { label: 'Resources',     to: '/resources' },
 ]
 
 const legalLinks = [
