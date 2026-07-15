@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import logoMark from '@/assets/logo-mark.png'
+import logoMark from '@/assets/logo-mark.webp'
 
 const year = new Date().getFullYear()
 

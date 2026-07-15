@@ -2,7 +2,7 @@
 import SectionShell from '@/components/ui/SectionShell.vue'
 import ImageSlot from '@/components/ui/ImageSlot.vue'
 import BrandButton from '@/components/ui/BrandButton.vue'
-import weightsImg from '@/assets/weights.jpeg'
+import weightsImg from '@/assets/weights.webp'
 
 const features = [
   { label: 'Built to fit your schedule', desc: 'Structured around your time, energy, and recovery needs.' },

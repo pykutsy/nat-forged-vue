@@ -2,7 +2,7 @@
 import SectionShell from '@/components/ui/SectionShell.vue'
 import ImageSlot from '@/components/ui/ImageSlot.vue'
 import BrandButton from '@/components/ui/BrandButton.vue'
-import appleImg from '@/assets/Apple.jpeg'
+import appleImg from '@/assets/Apple.webp'
 
 const includes = [
   'Personalized meal structure built around your preferences and lifestyle',

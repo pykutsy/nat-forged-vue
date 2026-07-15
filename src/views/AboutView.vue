@@ -4,7 +4,7 @@ import ImageSlot         from '@/components/ui/ImageSlot.vue'
 import BrandButton       from '@/components/ui/BrandButton.vue'
 import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 import FinalCtaSection   from '@/components/sections/FinalCtaSection.vue'
-import headshotImg       from '@/assets/Headshot.jpg'
+import headshotImg       from '@/assets/Headshot.webp'
 
 const values = [
   { title: 'Education over rules', body: 'You should understand why you\'re eating and training the way you are. Knowledge is the real goal — not blind compliance to a plan.' },
