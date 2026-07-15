@@ -6,7 +6,7 @@ import meImg from '@/assets/Me.webp'
 
 const credentials = [
   'Registered Nurse (RN, BSN)',
-  'Functional Nutrition Counselor',
+  'Functional Nutrition Certification (In Progress)',
   'Self-Taught Strength & Lifting Journey',
   'Mom — the credential that matters most',
 ]
